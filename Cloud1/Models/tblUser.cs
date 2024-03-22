@@ -14,23 +14,25 @@ namespace Cloud1.Models
         public string Name { get;set;}
         public string Surname { get; set; }
         public string Email { get;set;}
-        
-      
-        public IActionResult Index()
-        {
-            return View();
-        }
+
         public int insert_User(tblUser m)
         {
-            string sql = "INSERT INTO tblUser (userName, userSurname, userEmail) VALUES (@Name, @Surname, @Email)";
-            SqlCommand cmd = new SqlCommand(sql,con);
-            cmd.Parameters.AddWithValue("@Name", m.Name);
-            cmd.Parameters.AddWithValue("@Surname",m.Surname);
-            cmd.Parameters.AddWithValue("@Email",m.Email);
-            con.Open();
-            int rowsAffected = cmd.ExecuteNonQuery();
-            con.Close();
-            return rowsAffected;
+            try
+            {
+                string sql = "INSERT INTO tblUser (userName, userSurname, userEmail) VALUES (@Name, @Surname, @Email)";
+                SqlCommand cmd = new SqlCommand(sql, con);
+                cmd.Parameters.AddWithValue("@Name", m.Name);
+                cmd.Parameters.AddWithValue("@Surname", m.Surname);
+                cmd.Parameters.AddWithValue("@Email", m.Email);
+                con.Open();
+                int rowsAffected = cmd.ExecuteNonQuery();
+                con.Close();
+                return rowsAffected;
+            }catch (Exception ex)
+            {
+                throw ex;
+            }
+            
         }
     }
 }
