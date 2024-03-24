@@ -14,7 +14,12 @@
 
   <ItemGroup>
     <Folder Include="Views\Users\" />
-    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\CraftWork1.jpg" />
+    <None Include="wwwroot\Images\CraftWork2.jpg" />
+    <None Include="wwwroot\Images\CraftWork3.webp" />
   </ItemGroup>
 
 </Project>

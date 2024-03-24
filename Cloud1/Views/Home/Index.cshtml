@@ -1,8 +1,26 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome to Khumalo Craft</h1>
-    <p>Learn about <a asp-area="" asp-controller="Home" asp-action="ContactUs">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    .flag {
+        background-image:url("/Images/saFlag.png");
+        border-radius: 20px;
+        background-position: center;
+        backdrop-filter:blur(2px);
+        -webkit-backdrop-filter:blur(2px);
+        height:inherit;
+    }
+    h1{
+        color:whitesmoke;
+    }
+    p{
+        color:darkgrey;
+        font-size:20px;
+    }
+</style>
+<div class="text-center flag">
+    <h1 class="display-4">Welcome to Khumalo Craft </h1>
+   
+    <p>Learn about <a asp-area="" asp-controller="Home" asp-action="ContactUs">Contact Us</a>.</p>
+    
 </div>

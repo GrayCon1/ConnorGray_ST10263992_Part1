@@ -1,6 +1,24 @@
 ﻿@{
     ViewData["Title"] = "Contact Us";
 }
+<style>
+    body {
+        font-family: 'Comic Sans MS';
+    }
+</style>
+<body>
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to Contact Khumalo Craft.</p>
+<p>Use any of the following to find out more information about us</p>
+    <form action="ContactUs" method="post">
+        <p>
+            Instagram: &emsp; &commat;Khumalo_Craft<br />Tik Tok: &emsp; &commat;KhumaloCraft2024<br />Email: &emsp; khumalocraft&commat;bing.com<br />WhatsApp: &emsp; 076616318
+        </p>
+
+        <p>Please enter your details to stay up to date:</p>
+        <input type="text" name="Name" placeholder="First Name" required>
+        <input type="text" name="Surname" placeholder="Surname" required>
+        <input type="text" name="Email" placeholder="Email" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
