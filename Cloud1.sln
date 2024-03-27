@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud1", "Cloud1\Cloud1.csproj", "{A059A360-03FB-4439-8021-0B8235A5B280}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "st10263992", "Cloud1\st10263992.csproj", "{A059A360-03FB-4439-8021-0B8235A5B280}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
