@@ -16,26 +16,52 @@
         text-decoration: none;
     }
 
-        .Image:hover {
-            text-decoration: underline;
-            margin-top: 10px;
-            border: solid;
-        }
+    .Image:hover {
+        text-decoration: underline;
+        margin-top: 10px;
+        border: solid;
+    }
+
+    .text-intro {
+        color: whitesmoke;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 12px;
+        gap: 80px;
+        filter: none;
+        -webkit-filter: none;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .background {
+        @*background-image:linear-gradient(180deg,rgb(183,236,255),rgb(60,248,220));*@background-image: url(https://mrwallpaper.com/images/hd/cosmic-cool-cat-art-zcitxi2ahw6nqm45.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .blur {
+        background-color: rgb(255 255 255 / 0%);
+        backdrop-filter: blur(10px) -webkit-backdrop-filter: blur(10px);
+        height: inherit;
+    }
 </style>
+
 <body>
-    <h1>Items that we sell:</h1>
-    <ul>
-        <div class="Image">
-            <img src="~/Images/CraftWork1.jpg" width="500" />
-            <h3>African Bowls &emsp; R36</h3>
-        </div>
-        <div class="Image">
-            <img src="~/Images/CraftWork2.jpg" width="500" />
-            <h3>African Dolls &emsp;R100 </h3>
-        </div>
-        <div class="Image">
-            <img src="~/Images/CraftWork3.webp" width="500" />
-            <h3>African Crafts &emsp;R200 per item </h3>
-        </div>
-    </ul>
+    <main class="background">
+        <section class="text-intro blur">
+            <h1>My Work Page</h1>
+            <h1>Your Journey Starts Here...</h1>
+            <button id="btnLogin" class="input-device button-1" asp-controller="Home" asp-action="LoginPage">Login
+                Here</button>
+        </section>
+    </main>
 </body>
