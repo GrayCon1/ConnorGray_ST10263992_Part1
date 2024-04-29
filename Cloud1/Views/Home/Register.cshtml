@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+<style>
+    .inputs-row {
+        display: flex;
+        gap: 10px;
+        width: 200px;
+    }
+    .inputs-column{
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+        width: 200px;
+    }
+    .top-gap{
+        margin-top:10px;
+    }
+</style>
+
+<form action="ContactUs" method="post">
+    <p>Please enter your details to stay up to date:</p>
+    <div class="inputs-row">
+        <div class="inputs-column">
+        <input id="txtName" type="text" name="Name" placeholder="First Name" required />
+        <input type="text" name="Surname" placeholder="Surname" required />
+    </div>
+        <div class ="inputs-column">
+        <input type="email" name="Email" placeholder="Email" required />
+        <input type="number" name="Phone Number" placeholder="Phone Number" required />
+    </div>
+        <div class="inputs-column">
+        <input type="password" name="Password" placeholder="Password" required />
+        <input type="text" name="Comfirm Password" placeholder="Comfirm Password" required />
+    </div>
+    </div>
+    <button type="Register" class="input-device button-1 top-gap">Register</button>
+</form>

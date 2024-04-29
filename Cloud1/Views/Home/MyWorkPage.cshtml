@@ -2,8 +2,6 @@
     ViewData["Title"] = "My Work Page";
 
 }
-
-
 <style>
     body {
         font-family: 'Thick Boy';
@@ -60,8 +58,12 @@
         <section class="text-intro blur">
             <h1>My Work Page</h1>
             <h1>Your Journey Starts Here...</h1>
-            <button id="btnLogin" class="input-device button-1" asp-controller="Home" asp-action="LoginPage">Login
-                Here</button>
+            <a asp-area="" asp-controller="Home" asp-action="LoginPage">
+                <button id="btnLogin" class="input-device button-1" onclick="btnLogin_Click">
+                    Login
+                    Here
+                </button>
+            </a>
         </section>
     </main>
 </body>
