@@ -1,4 +1,4 @@
-﻿using Cloud1.Models;
+﻿using st10263992.Models;
 using System.Data.SqlClient;
 
 namespace st10263992.Models
@@ -24,7 +24,7 @@ namespace st10263992.Models
 
             try
             {
-                string sql = "INSERT INTO tblProduct (productName, productPrice, productCategory, productAvailability) VALUES (@Name, @Price, @Category, @Availability)";
+                string sql = "INSERT INTO tblProduct (Name, Price, Category, Availability) VALUES (@Name, @Price, @Category, @Availability)";
                 SqlCommand cmd = new SqlCommand(sql, con);
                 cmd.Parameters.AddWithValue("@Name", p.Name);
                 cmd.Parameters.AddWithValue("@Price", p.Price);
@@ -48,7 +48,7 @@ namespace st10263992.Models
         {
             try
             {
-                string sql = "DELETE FROM tblProduct (productName, productPrice, productCategory, productAvailability) VALUES (@Name, @Price, @Category, @Availability)";
+                string sql = "DELETE FROM tblProduct (Name, Price, Category, Availability) VALUES (@Name, @Price, @Category, @Availability)";
                 SqlCommand cmd = new SqlCommand(sql, con);
                 con.Open();
                 int rowsAffected = cmd.ExecuteNonQuery();

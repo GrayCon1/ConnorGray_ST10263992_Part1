@@ -2,7 +2,7 @@
 using System.Data.SqlClient;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
-namespace Cloud1.Models
+namespace st10263992.Models
 {
     public class tblUser
     {
@@ -14,16 +14,20 @@ namespace Cloud1.Models
         public string Name { get;set;}
         public string Surname { get; set; }
         public string Email { get;set;}
+        public string Password { get; set; }
+        public string PhoneNumber { get; set; }
 
         public int insert_User(tblUser m)
         {
             try
             {
-                string sql = "INSERT INTO tblUser (userName, userSurname, userEmail) VALUES (@Name, @Surname, @Email)";
+                string sql = "INSERT INTO tblUser (Name, Surname, Email, Password, Phone) VALUES (@Name, @Surname, @Email, @Password, @Phone)";
                 SqlCommand cmd = new SqlCommand(sql, con);
                 cmd.Parameters.AddWithValue("@Name", m.Name);
                 cmd.Parameters.AddWithValue("@Surname", m.Surname);
                 cmd.Parameters.AddWithValue("@Email", m.Email);
+                cmd.Parameters.AddWithValue("@Password",m.Password);
+                cmd.Parameters.AddWithValue("@Phone", m.PhoneNumber);
                 con.Open();
                 int rowsAffected = cmd.ExecuteNonQuery();
                 con.Close();

@@ -1,4 +1,4 @@
-namespace Cloud1.Models
+namespace st10263992.Models
 {
     public class ErrorViewModel
     {

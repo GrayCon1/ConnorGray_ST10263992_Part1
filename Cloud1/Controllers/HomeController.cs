@@ -1,8 +1,8 @@
-using Cloud1.Models;
+using st10263992.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Cloud1.Controllers
+namespace st10263992.Controllers
 {
     public class HomeController : Controller
     {

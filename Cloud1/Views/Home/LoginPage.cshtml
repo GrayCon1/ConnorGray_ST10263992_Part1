@@ -1,33 +1,39 @@
-
+@model st10263992.Models.tblUser
 @{
     ViewData["Title"] = "Login Page";
-    }
+    var Email = ["Email"];
+    var Password = Request.Form["Password"];
+    
+}
 <style>
     * {
-        font-family: 'Thick Boy';
+    font-family: 'Thick Boy';
     }
     .text{
-       
-        font-size:18px;
-        display:flex;
-        flex-direction:column;
-        gap:10px;
+
+    font-size:18px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
     }
     .button{
-        display: flex;
-        gap: 10px;
+    display: flex;
+    gap: 10px;
     }
     input{
-        width:200px;
+    width:200px;
     }
 </style>
 
 <h1>If you have an account already please Login otherwise 'Sign up'</h1>
 <div class="text"> 
-    <input type="email" name="Email" placeholder="Email" required>
+    <form action="" method="post">
 
-    <input type="password" name="Password" placeholder="Password" required>
+    <input for="Email"  type="email" name="Email" placeholder="Email" required>
+    <input for="Password" type="password" name="Password" placeholder="Password" required>
 
+
+    </form>
     <div class="button">
         <a asp-area="" asp-controller="Home" asp-action="Products">
         <button id="btnLoginGo" class="input-device button-1" onclick="btnLoginGo_Click">

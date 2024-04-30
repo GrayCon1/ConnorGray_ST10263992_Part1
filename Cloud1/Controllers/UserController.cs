@@ -1,7 +1,7 @@
-﻿using Cloud1.Models;
+﻿using st10263992.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Cloud1.Controllers
+namespace st10263992.Controllers
 {
     public class UserController : Controller
     {

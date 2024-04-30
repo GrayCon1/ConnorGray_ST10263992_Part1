@@ -1,4 +1,4 @@
-namespace Cloud1
+namespace st10263992
 {
     public class Program
     {
