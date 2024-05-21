@@ -26,30 +26,38 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ConnorGray_ST102639992_CLDV6221
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Views/Product/MyWork.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxNeVdvcmsuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Views/User/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-v1k03f90d6
+[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/conno/OneDrive/Documents/UNI/YR2/Cloud/ConnorGray_ST102639992_CLDV6221/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8ghwgw60hi

@@ -16,13 +16,7 @@ namespace ST10263992.Models
         public ProductDisplayModel() { }
 
         //Parameterized Constructor: This constructor takes five parameters (id, name, price, category, availability) and initializes the corresponding properties of ProductDisplayModel with the provided values.
-        public ProductDisplayModel(
-            int id,
-            string name,
-            decimal price,
-            string category,
-            bool availability
-        )
+        public ProductDisplayModel(int id,string name,decimal price,string category,bool availability)
         {
             ProductID = id;
             ProductName = name;

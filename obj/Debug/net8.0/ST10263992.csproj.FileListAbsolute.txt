@@ -528,7 +528,6 @@ C:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ConnorGray_ST102639992_CLDV6221\
 C:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ConnorGray_ST102639992_CLDV6221\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ST10263992.props
 C:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ConnorGray_ST102639992_CLDV6221\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ST10263992.props
 C:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ConnorGray_ST102639992_CLDV6221\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ConnorGray_ST102639992_CLDV6221\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ConnorGray_ST102639992_CLDV6221\obj\Debug\net8.0\scopedcss\bundle\ST10263992.styles.css
 C:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ConnorGray_ST102639992_CLDV6221\obj\Debug\net8.0\scopedcss\projectbundle\ST10263992.bundle.scp.css
 C:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ConnorGray_ST102639992_CLDV6221\obj\Debug\net8.0\ST10263992.csproj.Up2Date
@@ -537,3 +536,4 @@ C:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ConnorGray_ST102639992_CLDV6221\
 C:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ConnorGray_ST102639992_CLDV6221\obj\Debug\net8.0\ST10263992.pdb
 C:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ConnorGray_ST102639992_CLDV6221\obj\Debug\net8.0\ST10263992.genruntimeconfig.cache
 C:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ConnorGray_ST102639992_CLDV6221\obj\Debug\net8.0\ref\ST10263992.dll
+C:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ConnorGray_ST102639992_CLDV6221\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
