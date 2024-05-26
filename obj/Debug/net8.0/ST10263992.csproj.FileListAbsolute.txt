@@ -536,3 +536,4 @@ c:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ST10263992\obj\Debug\net8.0\refi
 c:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ST10263992\obj\Debug\net8.0\ST10263992.pdb
 c:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ST10263992\obj\Debug\net8.0\ST10263992.genruntimeconfig.cache
 c:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ST10263992\obj\Debug\net8.0\ref\ST10263992.dll
+c:\Users\conno\OneDrive\Documents\UNI\YR2\Cloud\ST10263992\obj\Debug\net8.0\ST10263992.sourcelink.json

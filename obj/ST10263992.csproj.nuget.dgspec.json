@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\ST10263992.csproj": {}
+    "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\ST10263992.csproj": {}
   },
   "projects": {
-    "C:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\ST10263992.csproj": {
+    "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\ST10263992.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\ST10263992.csproj",
+        "projectUniqueName": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\ST10263992.csproj",
         "projectName": "ST10263992",
-        "projectPath": "C:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\ST10263992.csproj",
+        "projectPath": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\ST10263992.csproj",
         "packagesPath": "C:\\Users\\conno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\obj\\",
+        "outputPath": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\conno\\AppData\\Roaming\\NuGet\\NuGet.Config",

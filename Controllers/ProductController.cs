@@ -17,7 +17,7 @@ namespace ST10263992.Controllers
         [HttpGet]
         public ActionResult MyWork()
         {
-            ViewData["Products"] = ProductTable.GetAllProducts();
+            // ViewData["Products"] = ProductTable.GetAllProducts();
             return View(productTable);
         }
     }
