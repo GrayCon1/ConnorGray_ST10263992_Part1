@@ -1,30 +1,26 @@
+using ST10263992.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using ST10263992.Models;
-
 
 namespace ST10263992.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public HomeController(ILogger<HomeController> logger, IHttpContextAccessor httpContextAccessor)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            _httpContextAccessor = httpContextAccessor;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int userID)
         {
-            List<productTable> products = productTable.GetAllProducts();
+            // Retrieve all products from the database
+            List<ProductTable> products = ProductTable.GetAllProducts();
 
-            int? userID = _httpContextAccessor.HttpContext.Session.GetInt32("UserID");
-
+            // Pass products and userID to the view
             ViewData["Products"] = products;
             ViewData["UserID"] = userID;
-            ViewData["SignUpSuccess"] = TempData["SignUpSuccess"];
 
             return View();
         }
@@ -33,6 +29,7 @@ namespace ST10263992.Controllers
         {
             return View();
         }
+
         public IActionResult About()
         {
             return View();
@@ -43,20 +40,15 @@ namespace ST10263992.Controllers
             return View();
         }
 
-        public IActionResult Login()
-        {
-            return View();
-        }
-
-        public IActionResult SignUp()
-        {
-            return View();
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(
+                new ErrorViewModel
+                {
+                    RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
+                }
+            );
         }
     }
 }

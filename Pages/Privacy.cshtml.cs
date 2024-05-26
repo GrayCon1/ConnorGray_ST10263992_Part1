@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ST10263992.Views.Home;
+namespace ST10263992.Pages;
 
 public class PrivacyModel : PageModel
 {
@@ -14,6 +14,7 @@ public class PrivacyModel : PageModel
 
     public void OnGet()
     {
+    
     }
 }
 

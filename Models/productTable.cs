@@ -2,35 +2,30 @@
 
 namespace ST10263992.Models
 {
-    public class productTable
+    public class ProductTable
     {
         //public static string con_string = "Server=tcp:clouddev-sql-server.database.windows.net,1433;Initial Catalog=CLDVDatabase;Persist Security Info=False;User ID=Byron;Password=RockeyM12345;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
         public static string con_string =
-            "Integrated Security=SSPI;Persist Security Info=False;User ID=\"\";Initial Catalog=test;Data Source=labVMH8OX\\SQLEXPRESS";
+            "Server=tcp:st10263992.database.windows.net,1433;Initial Catalog=st10263992Database;Persist Security Info=False;User ID=ConnorGray;Password=Dexter3772!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
         public static SqlConnection con = new SqlConnection(con_string);
-
         public int ProductID { get; set; }
-
         public string Name { get; set; }
-
         public string Price { get; set; }
-
         public string Category { get; set; }
+        public bool Availability { get; set; }
 
-        public string Availability { get; set; }
-
-        public int insert_product(productTable p)
+        public int InsertProduct()
         {
             try
             {
                 string sql =
-                    "INSERT INTO productTable (productName, productPrice, productCategory, productAvailability) VALUES (@Name, @Price, @Category, @Availability)";
+                    "INSERT INTO tblProduct (productName, productPrice, productCategory, productAvailability) VALUES (@Name, @Price, @Category, @Availability)";
                 SqlCommand cmd = new SqlCommand(sql, con);
-                cmd.Parameters.AddWithValue("@Name", p.Name);
-                cmd.Parameters.AddWithValue("@Price", p.Price);
-                cmd.Parameters.AddWithValue("@Category", p.Category);
-                cmd.Parameters.AddWithValue("@Availability", p.Availability);
+                cmd.Parameters.AddWithValue("@Name", Name);
+                cmd.Parameters.AddWithValue("@Price", Price);
+                cmd.Parameters.AddWithValue("@Category", Category);
+                cmd.Parameters.AddWithValue("@Availability", Availability);
                 con.Open();
                 int rowsAffected = cmd.ExecuteNonQuery();
                 con.Close();
@@ -45,28 +40,29 @@ namespace ST10263992.Models
         }
 
         // Method to retrieve all products from the database
-        public static List<productTable> GetAllProducts()
+        public static List<ProductTable> GetAllProducts()
         {
-            List<productTable> products = new List<productTable>();
+            List<ProductTable> products = new List<ProductTable>();
 
             using (SqlConnection con = new SqlConnection(con_string))
             {
-                string sql = "SELECT * FROM productTable";
+                string sql = "SELECT * FROM tblProduct";
                 SqlCommand cmd = new SqlCommand(sql, con);
 
                 con.Open();
                 SqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
                 {
-                    productTable product = new productTable();
+                    ProductTable product = new ProductTable();
                     product.ProductID = Convert.ToInt32(rdr["productID"]);
                     product.Name = rdr["productName"].ToString();
                     product.Price = rdr["productPrice"].ToString();
                     product.Category = rdr["productCategory"].ToString();
-                    product.Availability = rdr["productAvailability"].ToString();
+                    product.Availability = (bool)rdr["productAvailability"];
 
                     products.Add(product);
                 }
+                con.Close();
             }
 
             return products;

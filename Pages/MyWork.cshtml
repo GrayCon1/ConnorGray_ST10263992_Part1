@@ -1,0 +1,38 @@
+@page
+@using ST10263992.Models;
+@model MyWorkModel
+@{
+    ViewData["Title"] = "MyWorkPage";
+    var products = (List<ProductTable>)ViewData["Products"];
+}
+
+<h2>All Products</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Availability</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in products)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>@product.Category</td>
+                <td>@product.Availability</td>
+                <td>
+                    <form asp-controller="Transaction" asp-action="PlaceOrder" method="post">
+                        <input type="hidden" name="userID" value="@ViewData["UserID"]" />
+                        <input type="hidden" name="productID" value="@product.ProductID" />
+                        <button type="submit">Place Order</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

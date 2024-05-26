@@ -12,7 +12,7 @@ namespace ST10263992.Controllers
             try
             {
                 // Create a new instance of SqlConnection using the connection string
-                using (SqlConnection con = new SqlConnection(productTable.con_string))
+                using (SqlConnection con = new SqlConnection(ProductTable.con_string))
                 {
                     // Define the SQL query to insert a new record into the transactionTable
                     string sql =

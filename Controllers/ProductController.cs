@@ -5,19 +5,20 @@ namespace ST10263992.Controllers
 {
     public class ProductController : Controller
     {
-        public productTable prodtbl = new productTable();
+        public ProductTable productTable = new ProductTable();
 
         [HttpPost]
-        public ActionResult MyWork(productTable products)
+        public ActionResult MyWork(ProductTable products)
         {
-            var result2 = prodtbl.insert_product(products);
+            var result2 = productTable.InsertProduct();
             return RedirectToAction("Index", "Home");
         }
-
+ 
         [HttpGet]
         public ActionResult MyWork()
         {
-            return View(prodtbl);
+            ViewData["Products"] = ProductTable.GetAllProducts();
+            return View(productTable);
         }
     }
 }
