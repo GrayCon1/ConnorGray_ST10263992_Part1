@@ -12,7 +12,7 @@ namespace ST10263992.Models
         public string Name { get; set; }
         public string Price { get; set; }
         public string Category { get; set; }
-        public bool Availability { get; set; }
+        public string Availability { get; set; }
 
         public int InsertProduct()
         {
@@ -57,7 +57,7 @@ namespace ST10263992.Models
                     product.Name = rdr["productName"].ToString();
                     product.Price = rdr["productPrice"].ToString();
                     product.Category = rdr["productCategory"].ToString();
-                    product.Availability = (bool)rdr["productAvailability"];
+                    product.Availability = rdr["productAvailability"].ToString();
 
                     products.Add(product);
                 }
