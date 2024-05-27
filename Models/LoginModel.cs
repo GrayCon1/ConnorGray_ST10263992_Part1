@@ -1,17 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Data.SqlClient;
 
-namespace ST10263992.Models
+namespace Cloud1.Models
 {
     public class LoginModel
     {
-        public static string con_string =
-            "Server=tcp:st10263992.database.windows.net,1433;Initial Catalog=st10263992Database;Persist Security Info=False;User ID=ConnorGray;Password=Dexter3772!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-
         public int SelectUser(string email, string name)
         {
             int userId = -1; // Default value if user is not found
-            using (SqlConnection con = new SqlConnection(con_string))
+            using (SqlConnection con = new SqlConnection(Util.CON_STRING))
             {
                 string sql =
                     "SELECT userID FROM userTable WHERE userEmail = @Email AND userName = @Name";

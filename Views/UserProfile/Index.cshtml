@@ -1,0 +1,34 @@
+@model Cloud1.Models.UserModel
+@{
+    ViewData["Title"] = "UserProfile";
+    var userId = ViewData["UserID"];
+    var user = (Cloud1.Models.UserModel)ViewData["User"];
+}
+<style>
+    .Pic{
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+</style>
+<h1>@ViewData["Title"]</h1>
+
+<body>
+    <h3>About Me</h3>
+    <img class="Pic" src="~/Images/profile.png" /></a>
+    <div class="info">
+        <label>Name:</label>
+        <label>@user.Name</label>
+        <label>Email:</label>
+        <label>@user.Email</label>
+        <label>UserID:</label>
+        <label>@userId</label>
+    </div>
+    <form asp-controller="UserProfile" asp-action="Logout" method="post">
+        <button type="submit">Logout</button>
+    </form>
+</body>

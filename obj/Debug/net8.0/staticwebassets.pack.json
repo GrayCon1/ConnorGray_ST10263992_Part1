@@ -1,264 +1,348 @@
 {
   "Files": [
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ST10263992.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ST10263992.bundle.scp.css"
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\st10263992.bundle.scp.css",
+      "PackagePath": "staticwebassets\\st10263992.bundle.scp.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Fonts\\thicccboi-regular-webfont.eot",
+      "PackagePath": "staticwebassets\\Fonts\\thicccboi-regular-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Fonts\\thicccboi-regular-webfont.svg",
+      "PackagePath": "staticwebassets\\Fonts\\thicccboi-regular-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Fonts\\thicccboi-regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\thicccboi-regular-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Fonts\\thicccboi-regular-webfont.woff",
+      "PackagePath": "staticwebassets\\Fonts\\thicccboi-regular-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Fonts\\thicccboi-regular-webfont.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\thicccboi-regular-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\About.jpg",
+      "PackagePath": "staticwebassets\\Images\\About.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\KHUMALOLOGO.png",
+      "PackagePath": "staticwebassets\\Images\\KHUMALOLOGO.png"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\Product_1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\Product_10.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\Product_2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\Product_3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\Product_4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\Product_5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\Product_6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\Product_7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\Product_8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product_8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\Product_9.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product_9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\ShopFront.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ShopFront.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\profile.png",
+      "PackagePath": "staticwebassets\\Images\\profile.png"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\Images\\shoppingCart.png",
+      "PackagePath": "staticwebassets\\Images\\shoppingCart.png"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\OIP.jpg",
+      "PackagePath": "staticwebassets\\OIP.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ST10263992.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.st10263992.props",
+      "PackagePath": "build\\st10263992.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.st10263992.props",
+      "PackagePath": "buildMultiTargeting\\st10263992.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.st10263992.props",
+      "PackagePath": "buildTransitive\\st10263992.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.st10263992.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ST10263992.props",
-      "PackagePath": "build\\ST10263992.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ST10263992.props",
-      "PackagePath": "buildMultiTargeting\\ST10263992.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ST10263992.props",
-      "PackagePath": "buildTransitive\\ST10263992.props"
     }
   ],
   "ElementsToRemove": []

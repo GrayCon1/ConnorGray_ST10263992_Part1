@@ -1,24 +1,60 @@
-﻿using ST10263992.Models;
+﻿using Cloud1.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Data.SqlClient;
 
-namespace ST10263992.Controllers
+namespace Cloud1.Controllers;
+
+public class ProductController : Controller
 {
-    public class ProductController : Controller
+   
+    [HttpPost]
+    public ActionResult MyWork(Product products)
     {
-        public ProductTable productTable = new ProductTable();
+        
+        return RedirectToAction("Index", "Home");
+    }
 
-        [HttpPost]
-        public ActionResult MyWork(ProductTable products)
+    public ActionResult Index()
+    {
+        string[] images = new string[10];
+        for (int i = 0; i < images.Length; i++)
         {
-            var result2 = productTable.InsertProduct();
-            return RedirectToAction("Index", "Home");
+            images[i] = "/Images/Product_" + (i + 1) + ".jpg"; 
         }
- 
-        [HttpGet]
-        public ActionResult MyWork()
+        ViewData["ProductImages"] = images;
+        ViewData["Products"] = GetAllProducts();
+        ViewData["UserID"] = HttpContext.Session.GetInt32("UserID");
+        return View();
+    }
+
+    private List<Product> GetAllProducts()
+    {
+        List<Product> products = new List<Product>();
+
+        using (SqlConnection con = new SqlConnection(Util.CON_STRING))
         {
-            // ViewData["Products"] = ProductTable.GetAllProducts();
-            return View(productTable);
+            string sql = "SELECT * FROM tblProduct";
+            SqlCommand cmd = new SqlCommand(sql, con);
+
+            con.Open();
+            SqlDataReader rdr = cmd.ExecuteReader();
+            while (rdr.Read())
+            {
+                Product product = new Product
+                {
+                    ProductID = Convert.ToInt32(rdr["productID"]),
+                    Name = rdr["productName"].ToString(),
+                    Price = rdr["productPrice"].ToString(),
+                    Category = rdr["productCategory"].ToString(),
+                    Availability = rdr["productAvailability"].ToString()
+                };
+
+                products.Add(product);
+            }
+            con.Close();
         }
+
+        return products;
     }
 }
+

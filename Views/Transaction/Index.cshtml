@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Transaction";
+    var transactionItems = (List<Cloud1.Models.TransactionModel>)ViewData["Transactions"];
+}
+<h1>@ViewData["Title"]</h1>
+<table class="table">
+    <tbody>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ProductID</th>
+                <th>Price</th>
+            </tr>
+            @foreach (var transaction in transactionItems)
+            {
+                <tr>
+                    <td> @transaction.ProductName</td>
+                    <td>@transaction.ProductID</td>
+                    <td> @transaction.ProductPrice</td>
+                    <td></td>
+                </tr>
+            }
+        </thead>
+    <tbody>
+</table>

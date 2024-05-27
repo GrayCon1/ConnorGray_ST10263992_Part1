@@ -1,59 +1,104 @@
-﻿using ST10263992.Models;
+using Cloud1.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 using System.Data.SqlClient;
 
-namespace ST10263992.Controllers
+namespace Cloud1.Controllers;
+
+public class TransactionController : Controller
 {
-    public class TransactionController : Controller
+    private readonly ILogger<TransactionController> _logger;
+    private readonly IHttpContextAccessor _httpContextAccessor;
+    public TransactionController(ILogger<TransactionController> logger, IHttpContextAccessor httpContextAccessor)
     {
-        [HttpPost]
-        public ActionResult PlaceOrder(int userID, int productID)
+        _logger = logger;
+        _httpContextAccessor = httpContextAccessor;
+    }
+    public ActionResult Index()
+    {
+        ViewData["Transactions"] = GetAllTransactions();
+        return View();
+    }
+
+    private List<TransactionModel> GetAllTransactions()
+    {
+        int? userId = _httpContextAccessor.HttpContext.Session.GetInt32("UserID");
+        List<TransactionModel> transactions = new List<TransactionModel>();
+
+        using (SqlConnection con = new SqlConnection(Util.CON_STRING))
         {
-            try
+            string sql = "SELECT tblTransaction.productID, tblProduct.productName AS productName, tblProduct.productPrice AS productPrice " +
+                         "FROM tblTransaction " +
+                         "JOIN tblProduct ON tblTransaction.productID = tblProduct.productID " +
+                         "WHERE tblTransaction.userID = @UserID";
+
+            using (SqlCommand cmd = new SqlCommand(sql, con))
             {
-                // Create a new instance of SqlConnection using the connection string
-                using (SqlConnection con = new SqlConnection(ProductTable.con_string))
+                cmd.Parameters.AddWithValue("@UserID", userId);
+
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
                 {
-                    // Define the SQL query to insert a new record into the transactionTable
-                    string sql =
-                        "INSERT INTO transactionTable (userID, productID) VALUES (@UserID, @ProductID)";
-
-                    // Create a new instance of SqlCommand with the SQL query and SqlConnection
-                    using (SqlCommand cmd = new SqlCommand(sql, con))
+                    TransactionModel item = new TransactionModel
                     {
-                        // Add parameters to the SqlCommand for userID and productID
-                        cmd.Parameters.AddWithValue("@UserID", userID);
-                        cmd.Parameters.AddWithValue("@ProductID", productID);
+                        ProductID = Convert.ToInt32(reader["ProductID"]),
+                        ProductName = reader["ProductName"].ToString(),
+                        ProductPrice = reader["ProductPrice"].ToString()
+                    };
+                    transactions.Add(item);
+                }
+            }
+        }
 
-                        // Open the SqlConnection
-                        con.Open();
+        return transactions;
+    }
 
-                        // Execute the SqlCommand to insert the record into the transactionTable
-                        int rowsAffected = cmd.ExecuteNonQuery();
+    public ActionResult InsertTransactions()
+    {
+        int? userID = HttpContext?.Session?.GetInt32("UserID");
+        using (SqlConnection con = new SqlConnection(Util.CON_STRING))
+        {
+            con.Open();
+            string sql = "SELECT productID  FROM tblCart WHERE userID = @UserID";
+            List<CartModel> cartItems = new List<CartModel>();
 
-                        // Close the SqlConnection
-                        con.Close();
-
-                        // Check if the insert operation was successful
-                        if (rowsAffected > 0)
+            using (SqlCommand cmd = new SqlCommand(sql, con))
+            {
+                cmd.Parameters.AddWithValue("@UserID", userID);
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        CartModel item = new CartModel
                         {
-                            // Redirect the user to the home page after placing the order
-                            return RedirectToAction("Index", "Home");
-                        }
-                        else
-                        {
-                            // If the insert operation failed, return an error view or message
-                            return View("OrderFailed");
-                        }
+                            ProductID = Convert.ToInt32(reader["productID"])
+                        };
+                        cartItems.Add(item);
                     }
                 }
             }
-            catch (Exception ex)
+
+            foreach (var item in cartItems)
             {
-                // Log the exception or handle it appropriately
-                // For now, return an error view or message
-                return View("Error");
+                string insertSql = "INSERT INTO tblTransaction (userID, productID) VALUES (@UserID, @ProductID)";
+                using (SqlCommand cmd = new SqlCommand(insertSql, con))
+                {
+                    cmd.Parameters.AddWithValue("@UserID", userID);
+                    cmd.Parameters.AddWithValue("@ProductID", item.ProductID);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+
+            // Clear the cart after placing the order
+            string deleteCartSql = "DELETE FROM tblCart WHERE userID = @UserID";
+            using (SqlCommand cmd = new SqlCommand(deleteCartSql, con))
+            {
+                cmd.Parameters.AddWithValue("@UserID", userID);
+                cmd.ExecuteNonQuery();
             }
         }
+
+        return RedirectToAction("Index", "Transaction");
     }
 }

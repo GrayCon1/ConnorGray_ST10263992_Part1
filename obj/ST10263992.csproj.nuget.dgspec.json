@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\ST10263992.csproj": {}
+    "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\st10263992.csproj": {}
   },
   "projects": {
-    "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\ST10263992.csproj": {
+    "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\st10263992.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\ST10263992.csproj",
-        "projectName": "ST10263992",
-        "projectPath": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\ST10263992.csproj",
-        "packagesPath": "C:\\Users\\conno\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\conno\\OneDrive\\Documents\\UNI\\YR2\\Cloud\\ST10263992\\obj\\",
+        "projectUniqueName": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\st10263992.csproj",
+        "projectName": "st10263992",
+        "projectPath": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\st10263992.csproj",
+        "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lab_services_student\\source\\repos\\ConnorGray_ST10263992_Part2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\conno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lab_services_student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -47,25 +46,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
               "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.1, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -91,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

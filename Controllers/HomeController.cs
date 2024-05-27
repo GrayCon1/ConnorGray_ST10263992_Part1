@@ -1,54 +1,50 @@
-using ST10263992.Models;
+using Cloud1.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ST10263992.Controllers
+namespace Cloud1.Controllers;
+
+public class HomeController : Controller
 {
-    public class HomeController : Controller
+    private readonly ILogger<HomeController> _logger;
+     private readonly IHttpContextAccessor _httpContextAccessor;
+    public HomeController(ILogger<HomeController> logger, IHttpContextAccessor httpContextAccessor)
     {
-        private readonly ILogger<HomeController> _logger;
+        _logger = logger;
+        _httpContextAccessor = httpContextAccessor;
+    }
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+    public IActionResult Index()
+    {
+        int? userId = _httpContextAccessor.HttpContext?.Session?.GetInt32("UserID");
+        ViewData["UserID"] = userId;
+        return View();
+    }
 
-        public IActionResult Index(int userID)
-        {
-            // Retrieve all products from the database
-            List<ProductTable> products = ProductTable.GetAllProducts();
+    public IActionResult ContactUs()
+    {
+        return View();
+    }
 
-            // Pass products and userID to the view
-            ViewData["Products"] = products;
-            ViewData["UserID"] = userID;
+    public IActionResult About()
+    {
+        return View();
+    }
 
-            return View();
-        }
+    public IActionResult MyWork()
+    {
+        return View();
+    }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        public IActionResult About()
-        {
-            return View();
-        }
-
-        public IActionResult MyWork()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(
-                new ErrorViewModel
-                {
-                    RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
-                }
-            );
-        }
+    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    public IActionResult Error()
+    {
+        return View(
+            new ErrorViewModel
+            {
+                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
+            }
+        );
     }
 }
+

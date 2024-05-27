@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Login";
+}
+<h1>@ViewData["Title"]</h1>
+
+<style>
+    .column {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 400px;
+        margin-bottom: 8px;
+    }
+
+    .space{
+        margin-bottom: 8px;
+    }
+</style>
+
+<div>
+    <form asp-controller="Login" asp-action="Login" method="post">
+        <div class="column">
+            <p>Login to existing account</p>
+            <input type="email" name="Email" placeholder="example@gmail.com" required>
+            <input type="password" name="Password" placeholder="Password" required>
+        </div>
+        <button type="submit" class="button-style space">Login</button>
+    </form>
+    <div>
+        <a asp-controller="SignUp" asp-action="Index"><button type="submit" class="button-style space">Sign Up</button></a>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Cart";
+    var cartItems = (List<Cloud1.Models.CartModel>)ViewData["CartItems"];
+}
+<h1>@ViewData["Title"]</h1>
+<table class="table">
+    <tbody>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+            @foreach (var cart in cartItems)
+            {
+                <tr>
+                    <td> @cart.ProductName</td>
+                    <td> @cart.ProductPrice</td>
+                    <td>
+                        <form asp-controller="Cart" asp-action="RemoveCartItem" method="post">
+                            <input type="hidden" name="productID" value="@cart.ProductID" />
+                            <button type="submit">Remove Item</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </thead>
+    <tbody>
+</table>
+<form asp-controller="Transaction" asp-action="InsertTransactions" method="post">
+    <button type="submit">Purchase</button>
+</form>
+<form asp-controller="Transaction" asp-action="Index" method="post">
+    <button type="submit">View Tranactions</button>
+</form>
+<form asp-controller="Cart" asp-action="ClearCart" method="post">
+    <button type="submit">Clear Cart</button>
+</form>

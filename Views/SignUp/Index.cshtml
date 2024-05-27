@@ -1,0 +1,29 @@
+@model Cloud1.Models.UserModel
+@{
+    ViewData["Title"] = "SignUp";
+}
+<style>
+    .column {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 400px;
+    }
+
+    button{
+        margin-top: 8px;
+    }
+</style>
+
+<h1>@ViewData["Title"]</h1>
+<p>Create your own account</p>
+
+
+<form asp-controller="SignUp" asp-action="SignUp" method="post">
+    <div class="column">
+        <input type="text" name="Name" placeholder="Name" required>
+        <input type="email" name="Email" placeholder="example@gmail.com" required>
+        <input type="password" name="Password" placeholder="Password" required>
+    </div>
+    <button type="submit" class="button-style">Login</button>
+</form>

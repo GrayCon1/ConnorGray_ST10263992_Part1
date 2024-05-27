@@ -1,22 +1,52 @@
+@font-face {
+    font-family: "Thick Boy";
+    src: url("../Fonts/thicccboi-regular-webfont.eot");
+    src: url("../Fonts/thicccboi-regular-webfont.eot?#iefix") format("embedded-opentype"),
+        url("../Fonts/thicccboi-regular-webfont.woff2") format("woff2"),
+        url("../Fonts/thicccboi-regular-webfont.woff") format("woff"),
+        url("../Fonts/thicccboi-regular-webfont.ttf") format("truetype"),
+        url("../Fonts/thicccboi-regular-webfont.svg#thicccboiregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+    background-color: white;
+    font-family: "Thick Boy", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+nav img {
+    width: 100px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+.button-style{
+    border-radius: 4px;
+    background-color: #3895f8;
+    min-width: 100px;
+    min-height: 40px;
 }
