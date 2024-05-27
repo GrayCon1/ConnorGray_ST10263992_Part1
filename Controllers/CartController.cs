@@ -92,6 +92,7 @@ public class CartController : Controller
                 con.Open();
                 cmd.ExecuteNonQuery();
             }
+    
         }
 
         return RedirectToAction("Index", "Cart");
